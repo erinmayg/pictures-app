@@ -19,36 +19,16 @@ function App() {
   return (
     <div className='App'>
       <div className='button-row'>
-        <div
-          className='button'
-          onClick={(e) => {
-            setQuery('mountains');
-          }}
-        >
+        <div className='button' onClick={() => setQuery('mountains')}>
           Mountains
         </div>
-        <div
-          className='button'
-          onClick={(e) => {
-            setQuery('beaches');
-          }}
-        >
+        <div className='button' onClick={() => setQuery('beaches')}>
           Beaches
         </div>
-        <div
-          className='button'
-          onClick={(e) => {
-            setQuery('birds');
-          }}
-        >
+        <div className='button' onClick={() => setQuery('birds')}>
           Birds
         </div>
-        <div
-          className='button'
-          onClick={(e) => {
-            setQuery('food');
-          }}
-        >
+        <div className='button' onClick={() => setQuery('food')}>
           Food
         </div>
       </div>
