@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     const apiRoot = 'https://api.unsplash.com';
-    const accessKey = process.env.ACCESS_KEY;
+    const accessKey = process.env.REACT_APP_ACCESS_KEY;
     axios
       .get(
         `${apiRoot}/search/photos?query=${query}&client_id=${accessKey}&count=10`

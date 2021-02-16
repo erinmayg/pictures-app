@@ -49,4 +49,13 @@
   .pictures-container {
     margin: 1rem;
   }
+
+  .button-row {
+    grid-template-columns: auto auto;
+    padding: 1rem 1rem;
+  }
+
+  .button {
+    margin: 1rem;
+  }
 }
